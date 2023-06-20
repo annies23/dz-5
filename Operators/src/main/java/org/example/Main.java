@@ -33,9 +33,8 @@ public class Main {
         System.out.println("Compare Result 2: " + compareValue2);
 
         //7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
-        boolean anySumIsEven = intSum3 % 2 == 0 || intSum4 % 2 == 0; {
-           System.out.println("Is there any even sum? " + anySumIsEven);
-        }
+        boolean anySumIsEven = intSum3 % 2 == 0 || intSum4 % 2 == 0;
+        System.out.println("Is there any even sum? " + anySumIsEven);
 
         /* Для себе пробувала з використанням if
         boolean isFirstSumEven = intSum3 % 2 == 0;
